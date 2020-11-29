@@ -18,7 +18,7 @@ public class ProfilController {
 	public ResponseEntity<Profil> getProfilInformations() {
 		Profil profil = new Profil();
 		profil.setId(1234567890);
-		profil.setAbout_me(
+		profil.setAboutMe(
 				"Salut,  je suis AIT TGHRAYT Youssef, Ingénieur logiciel et Développeur full stack ,Je travaille Dans Involys (Entreprise Multinationale).\n"
 						+ " j’ai appris à coder dès mon plus jeune âge dans divers langages informatiques (JAVA EE[Spring, JSTL , JSF, JPA, Hibernate..], .NET[Framework,Core], Angular…) et ai créé des projets personnels, "
 						+ "et professionnels.\n Polyvalent, je maîtrise les différentes étapes"

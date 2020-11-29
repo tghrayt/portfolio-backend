@@ -20,7 +20,7 @@ public class Profil {
 	private String linkedin;
 	private String facebook;
 	private String twitter;
-	private String about_me;
+	private String aboutMe;
 	private String photo_url;
 	private String designation;
 	private String Summary;
