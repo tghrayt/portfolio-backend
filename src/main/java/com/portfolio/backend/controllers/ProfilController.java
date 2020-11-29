@@ -35,7 +35,7 @@ public class ProfilController {
 		profil.setMail("tghrayt.ysf@gmail.com");
 		profil.setResume("https://drive.google.com/file/d/1NcvXJCUHwxme1Z9SnzUwIiJ91ZYhYxvs/view");
 		profil.setDesignation("Ingénieur logiciel - Développeur Web Full Stack");
-
+		profil.setName("AIT TGHRAYT Youssef");
 		return new ResponseEntity<Profil>(profil, HttpStatus.OK);
 	}
 
